@@ -3,7 +3,6 @@ header{
     top: 0;
     z-index: 3;
 }
-
 .image-text-container {
     position: relative;
     display: inline-block; /* Binds the image and text together into one unit. */
@@ -31,3 +30,6 @@ header{
 .carousel-control-prev,.carousel-control-next {
     filter: invert(1); /* Flip colors to make the white arrows into black. */
     }
+.custom-background{
+    background-image: linear-gradient(to bottom, white, #b0c4de)
+}
