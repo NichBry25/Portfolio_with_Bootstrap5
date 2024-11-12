@@ -1,8 +1,14 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 .image-text-container {
     position: relative;
     display: inline-block; /* Binds the image and text together into one unit. */
     }
-    .overlay-text {
+.overlay-text {
     position: absolute;
     top: 50%; /* Centers text vertically relative to the container. */
     right: -40px; /* Align entire text to the right of the image, while also poking out. */
@@ -14,7 +20,7 @@
     text-align: left; /* Align text to the left. */
     font-size: 1.2rem; /* Font size. */
     }
-    .custom-hr {
+.custom-hr {
     width: 80%; /* Width assigned so that it doesn't touch the edges. */
     border: none; /* Removes the default border. */
     height: 2px; /* Line thickness. */
@@ -22,6 +28,6 @@
     margin: 20px auto; /* Centers the line.*/
     margin-top: -20px; /* Creates space between containers and the line. */
     }
-    .carousel-control-prev,.carousel-control-next {
+.carousel-control-prev,.carousel-control-next {
     filter: invert(1); /* Flip colors to make the white arrows into black. */
     }
